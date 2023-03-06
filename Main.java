@@ -4,126 +4,79 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // 1 задание
+    //   System.out.println("Task 1");
 
-        //   int a = 9;
-        //   if (a == 10) {
-        //       System.out.println("Верно");
-        //   }
-        //   if (a < 10) {
-        //       System.out.println("Неверно");
-        //   }
-
-        // 2 задание
-
-    //   int min = 72;
-    //   if (min >= 0 && min <= 14) {
-    //       System.out.println("Первая четверть");
-    //   }
-    //   if (min >= 15 && min <= 29) {
-    //       System.out.println("Вторая четверть");
-    //   }
-    //   if (min >= 30 && min <= 44) {
-    //       System.out.println("Третья четверть");
-    //   }
-    //   if (min >= 45 && min <= 59) {
-    //       System.out.println("Четвертая четверть");
-    //   }
-    //   if (min > 60) {
-    //       System.out.println("Неправильное число");
-    //   }
+    //   Scanner scanner = new Scanner(System.in);
+    //   System.out.println("Enter your name : ");
+    //   var name = scanner.nextLine();
+    //   System.out.println("Hello, " + name + "!");
 
 
-    // 3 задание
+    //  System.out.println("Task 2");
+    //  Scanner scanner = new Scanner(System.in);
 
- //  int a = -3;
- //  if (a>0) {
- //      System.out.println("Верно");
- //  }
- //  else {
- //      System.out.println("Неверно");
- //  }
+    //  System.out.println("Enter your birth date : ");
+    //  int date = scanner.nextInt();
+    //  int birthdate = 2023 - date;
+    //  System.out.println("Your age is " + birthdate);
 
-    // 4 задание
+    //   System.out.println("Task 3");
+    //   Scanner scanner = new Scanner(System.in);
 
-    //  int a = -3;
-    //  if (a<0) {
-    //      System.out.println("Верно");
-    //  }
-    //  else {
-    //      System.out.println("Неверно");
-    //  }
+    //   System.out.print("Enter the length of the side of square : ");
+    //   int length = scanner.nextInt();
+    //   int perimeter = length * 4;
+    //   System.out.println("Perimeter of square is : " + perimeter);
 
-    // 5 задание
+        //  System.out.println("Task 4");
+        //  Scanner scanner = new Scanner(System.in);
 
-   // int a = -1;
-   // if (a >= 0) {
-   //     System.out.println("Верно");
-   // } else {
-   //     System.out.println("Неверно");
-   // }
-
-   // 6 задание
-
-   //    int a = -3;
-   //    if (a <= 0) {
-   //        System.out.println("Верно");
-   //    } else {
-   //        System.out.println("Неверно");
-   //    }
-
-   // 7 задание
-
-    //   int a = 0;
-    //   if (a != 0) {
-    //       System.out.println("Верно");
-    //   } else {
-    //       System.out.println("Неверно");
-    //   }
-
-    // 10 задание
-
-    //  int a = 50;
-    //  int b = 10;
-    //  int c = 40;
-
-    //  if (a>b)
-    //  if (a>c){
-    //      System.out.println("max" + a);
-    //  }
-    //  else {
-    //      System.out.println("max" + c);
-    //  }
-    //  if (b>c)
-    //  if (b>a){
-    //      System.out.println("max" + b);
-    //  }
-    //  else {
-    //      System.out.println("max" + c);
-    //  }
-
-    // 11 задание
+        //  System.out.print("Enter the raduis of the circle : ");
+        //  double radius = scanner.nextDouble();
+        //  double perimeter = Math.PI * (radius * radius);
+        //  System.out.print("Perimeter of square is : " + perimeter);
 
 
-    //   int a = -10;
-    //   if (a>0) {
-    //       System.out.println("Число положительное");
-    //   }
-    //   if (a<0) {
-    //       System.out.println("Число отрицательное");
-    //   }
 
-    // 12 задание
+    //    System.out.println("Task 5");
+    //
+    //    Scanner scanner = new Scanner(System.in);
+    //    System.out.print("Distance between cityA and cityB : ");
+    //    int distance = scanner.nextInt();
+    //    System.out.print("Time to get there in hours : ");
+    //    int time = scanner.nextInt();
+    //    int speed = distance * time;
+    //    System.out.print("You need to go at speed " + speed + "Km/h");
 
-        int a = 41;
 
-        if (a%2==0) {
-            System.out.println("Четное число");
-        }
-        if (a%2!=0) {
-            System.out.println("Нечетное число");
-        }
+//     System.out.println("Task 6")";
+//
+//     Scanner scanner = new Scanner(System.in);
+//     System.out.print("Enter the amount in EUR : ");
+//     double amount = scanner.nextDouble();
+//     double currency = 1.06F;
+//     double dollar = amount * currency;
+//     System.out.print(amount + "EUR = " + dollar + " USD");
 
+
+        //    System.out.println("Task 7");
+
+        //    Scanner scanner = new Scanner(System.in);
+        //    System.out.println("Enter flash drive size : ");
+        //    double driveSize = scanner.nextDouble();
+        //    double fileSize = 0.82F;
+        //    double numberOfFiles = driveSize / fileSize;
+        //    System.out.println("Numer of files : " + numberOfFiles);
+
+
+        //   System.out.println("Task 8");
+        //   Scanner scanner = new Scanner(System.in);
+        //   System.out.print("Введите сумму денег : ");
+        //   int money = scanner.nextInt();
+        //   int chocolate = 45;
+        //   int amountOfChocolate = money / chocolate;
+        //   int shortCash = money - (amountOfChocolate * chocolate);
+        //   System.out.print("Количество шоколадок: " + amountOfChocolate + ", ваша сдача: " + shortCash);
 
     }
 }
